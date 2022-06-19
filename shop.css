@@ -1,0 +1,172 @@
+body,html {
+
+  height: 100%;
+  margin: 0%;
+}
+
+
+body {
+  background-image: url('images/pattern.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+#lista{
+  margin: 0 auto;
+  width:990px;
+  background-color:#E5D2C4;
+  height: 30px;
+  font-size: 15px;
+  font-family: '212 Baby Girl';
+  text-align: center;
+
+
+    }
+
+    #lista a{
+    	color: black;
+    }
+
+    #lista a:hover{
+    	background-color: #b2eedc;
+    }
+
+    #lista a.active {
+      background-color: #b2eedc;
+    }
+
+ .nav-link{
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-top: 0px;
+    color:black;
+    padding: 5px;
+    }
+
+
+ .slike{
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 50px;
+
+  }
+
+  .veliki {
+      position: relative;
+      }
+
+
+  footer {
+      position: absolute;
+      padding: 5px 5px 0px 5px;
+      bottom: 0;
+      width: 100%;
+      height: 70px;
+      background: #EDE0D6;
+       }
+
+
+  .vreme{
+      float: left;
+      margin-left: 250px;
+      margin-bottom: 50px;
+      color: black;
+         }
+
+
+   .kont{
+      margin-left: 100px;
+      margin-top: 100px;
+
+         }
+
+   .razmak{
+       height: 100px;
+         }
+
+ .slika1:hover{
+    position: relative;
+    margin-left: 0px;
+    top: -10px;
+    left: -50px;
+    width: 500px;
+    height: auto;
+    display: block;
+    z-index: 999;
+  }
+
+.slika2:hover{
+    position: relative;
+    top: -10px;
+    left: -50px;
+    width: 500px;
+    height: auto;
+    display: block;
+    z-index: 999;
+    }
+
+
+  .slika3:hover{
+    position: relative;
+    top: -10px;
+    left: -50px;
+    width: 500px;
+    height: auto;
+    display: block;
+    z-index: 999;
+    }
+
+.slika4:hover{
+    position: relative;
+    top: -10px;
+    left: -50px;
+    width: 500px;
+    height: auto;
+    display: block;
+    z-index: 999;
+    }
+
+ .ponuda{
+    width: 300px;
+    height: 300px;
+    }
+
+
+ .info{
+    float:left;
+    margin-left: 160px;
+    margin-top: 50px;
+  	}
+
+ .clearfix{
+    clear:both;
+
+    }
+
+ .centar{
+   font-size: 20px;
+   font-style: regular;
+   font-family: sans-serif;
+   font-weight: bold;
+   color: #5a9e8a;
+    }
+
+  table {
+    font-family:'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 500px;
+    }
+
+td, th {
+   border: 2px solid #EDE0D6;
+   text-align: left;
+   padding: 5px;
+   }
+
+tr:nth-child(even) {
+    background-color: #b2eedc;
+    }

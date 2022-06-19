@@ -1,0 +1,69 @@
+body,html {
+
+  height: 100%;
+  margin: 0%;
+}
+
+
+body {
+  background-image: url('images/pattern.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+#lista{
+  margin: 0 auto;
+  width:990px;
+  background-color:#E5D2C4;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+
+
+    }
+    #lista a{
+    	color: black;
+    }
+
+    #lista a:hover{
+    	background-color: #b2eedc;
+    }
+    
+      #lista a.active {
+        background-color: #b2eedc;
+    }
+
+   .nav-link{
+      margin-left: 50px;
+      margin-right: 80px;
+      margin-top: 0px;
+      color:black;
+      padding: 5px;
+
+    }
+
+    .logo{
+      margin-left: 100px;
+      margin-top: 0px;
+      margin-bottom: 50px;
+    }
+
+    .tekst{
+       margin-left: 100px;
+       margin-right: 200px;
+       margin-top: 90px;
+       margin-bottom: 10px;
+       font-size: 25px;
+       font-family: '212 Baby Girl',sans-serif;
+       color: black;
+       background-color: none;
+       width: 70%;
+       height: 80%;
+        }
+
+    .tekst2{
+       margin-left: 80px;
+    }
